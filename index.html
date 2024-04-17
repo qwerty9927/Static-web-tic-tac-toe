@@ -1,129 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Unigine - Epic Games Made For True Gamers!</title>
-  <meta name="title" content="Unigine - Epic Games Made For True Gamers!">
-  <meta name="description" content="This is an esports and gaming html template made by codewithsadee">
+    <title>BoardGame - Tic Tac Toe Game</title>
+    <meta name="title" content="Unigine - Epic Games Made For True Gamers!" />
+    <meta name="description" content="This is an esports and gaming html template made by codewithsadee" />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./flow-xo.svg" type="image/svg+xml" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" />
+  </head>
 
-</head>
-
-<body id="top">
-
-  <!-- 
+  <body id="top">
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header active" data-header>
-    <div class="container">
+    <header class="header active" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/flow-xo.svg" width="110" height="53" alt="XO home" />
+        </a>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="110" height="53" alt="unigine home">
-      </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
 
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+            <!-- <li class="navbar-item">
+              <a href="#tournament" class="navbar-link" data-nav-link>tournament</a>
+            </li> -->
 
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>home</a>
-          </li>
+            <li class="navbar-item">
+              <a href="#news" class="navbar-link" data-nav-link>news</a>
+            </li>
 
-          <li class="navbar-item">
-            <a href="#tournament" class="navbar-link" data-nav-link>tournament</a>
-          </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link>contact</a>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <a href="#news" class="navbar-link" data-nav-link>news</a>
-          </li>
+        <a href="https://github.com/qwerty9927/Tic-tac-toe" target="_blank" class="btn" data-btn>join our team</a>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>contact</a>
-          </li>
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+      </div>
+    </header>
 
-        </ul>
-      </nav>
-
-      <a href="#" class="btn" data-btn>join our team</a>
-
-      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-        <span class="line line-3"></span>
-      </button>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
+    <main>
+      <article>
+        <!-- 
         - #HERO
       -->
 
-      <div class="hero has-before" id="home">
-        <div class="container">
+        <div class="hero has-before" id="home">
+          <div class="container">
+            <p class="section-subtitle">Enjoy The Games</p>
 
-          <p class="section-subtitle">Enjoy The Games</p>
+            <h1 class="h1 title hero-title">
+              Board game <br />
+              Tic tac toe
+            </h1>
 
-          <h1 class="h1 title hero-title">Epic Games Made For <br> True Gamers!</h1>
+            <a href="https://github.com/qwerty9927/Tic-tac-toe" target="_blank" class="btn" data-btn>Join With Us</a>
 
-          <a href="#" class="btn" data-btn>Join With Us</a>
+            <div class="hero-banner">
+              <img src="./assets/images/broad.png" width="500" alt="hero banner" id="broad" />
 
-          <div class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="850" height="414" alt="hero banner" class="w-100">
-
-            <img src="./assets/images/hero-banner-bg.png" alt="" class="hero-banner-bg">
+              <img src="./assets/images/hero-banner-bg.png" alt="" class="hero-banner-bg" />
+            </div>
           </div>
-
         </div>
-      </div>
 
-
-
-
-
-      <!-- 
+        <!-- 
         - #UPCOMING
       -->
 
-      <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+        <!-- <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
         <div class="container">
 
           <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
@@ -269,342 +255,231 @@
           </ol>
 
         </div>
-      </section>
+      </section> -->
 
-
-
-
-
-      <!-- 
+        <!-- 
         - #NEWS
       -->
 
-      <section class="section news" aria-label="our latest news" id="news">
-        <div class="container">
+        <section class="section news" aria-label="our latest news" id="news">
+          <div class="container">
+            <p class="section-subtitle" data-reveal="bottom">What's On Our Mind</p>
 
-          <p class="section-subtitle" data-reveal="bottom">What's On Our Mind</p>
+            <h2 class="h2 section-title" data-reveal="bottom">News And <span class="span">Headlines</span></h2>
 
-          <h2 class="h2 section-title" data-reveal="bottom">
-            News And <span class="span">Headlines</span>
-          </h2>
+            <ul class="news-list">
+              <li data-reveal="bottom">
+                <div class="news-card">
+                  <figure class="card-banner img-holder" style="--width: 600; --height: 400">
+                    <img
+                      src="./assets/images/tic-tac-toe-game.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="What is Tic-Tac-Toe game?"
+                      class="img-cover"
+                    />
+                  </figure>
 
-          <p class="section-text" data-reveal="bottom">
-            Our success in creating business solutions is due in large part to our talented and highly committed team.
-          </p>
+                  <div class="card-content">
+                    <a href="#" class="card-tag">History</a>
 
-          <ul class="news-list">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">What Is Tic Tac Toe Game?</a>
+                    </h3>
 
-            <li data-reveal="bottom">
-              <div class="news-card">
+                    <p class="card-text">
+                      Tic-tac-toe is a paper-and-pencil game for two players who take turns marking the spaces in a
+                      three-by-three grid with X or O...
+                    </p>
 
-                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="./assets/images/news-1.jpg" width="600" height="400" loading="lazy"
-                    alt="Innovative Business All Over The World." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-tag">Business</a>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">Elliot Alderson</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Innovative Business All Over The World.</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Financial experts support or help you to to find out which way you can raise your funds more...
-                  </p>
-
-                  <a href="#" class="link has-before">Read More</a>
-
+                    <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank" class="link has-before"
+                      >Read More</a
+                    >
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li data-reveal="bottom">
+                <div class="news-card">
+                  <figure class="card-banner img-holder" style="--width: 600; --height: 400">
+                    <img
+                      src="./assets/images/mcts_own.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="How To Start Initiating An Startup In Few Days."
+                      class="img-cover"
+                    />
+                  </figure>
 
-            <li data-reveal="bottom">
-              <div class="news-card">
+                  <div class="card-content">
+                    <a href="#" class="card-tag">History</a>
 
-                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="./assets/images/news-2.jpg" width="600" height="400" loading="lazy"
-                    alt="How To Start Initiating An Startup In Few Days." class="img-cover">
-                </figure>
+                    <h3 class="h3">
+                      <a href="#" class="card-title">How To Implement Monte Carlo Tree Search Algorithm?</a>
+                    </h3>
 
-                <div class="card-content">
+                    <p class="card-text">
+                      Monte Carlo Tree Search (MCTS) is a heuristic search set of rules that has won big attention and
+                      reputation within the discipline of synthetic intelligence...
+                    </p>
 
-                  <a href="#" class="card-tag">Startup</a>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">Elliot Alderson</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">How To Start Initiating An Startup In Few Days.</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Financial experts support or help you to to find out which way you can raise your funds more...
-                  </p>
-
-                  <a href="#" class="link has-before">Read More</a>
-
+                    <a
+                      href="https://www.geeksforgeeks.org/ml-monte-carlo-tree-search-mcts/"
+                      target="_blank"
+                      class="link has-before"
+                      >Read More</a
+                    >
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
 
-              </div>
-            </li>
-
-            <li data-reveal="bottom">
-              <div class="news-card">
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="./assets/images/news-3.jpg" width="600" height="400" loading="lazy"
-                    alt="Financial Experts Support Help You To Find Out." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-tag">Finance</a>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">Elliot Alderson</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Financial Experts Support Help You To Find Out.</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Financial experts support or help you to to find out which way you can raise your funds more...
-                  </p>
-
-                  <a href="#" class="link has-before">Read More</a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
+    <footer class="footer" id="contact">
+      <div class="section footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="./assets/images/flow-xo.svg" width="150" height="73" loading="lazy" alt="XO logo" />
+            </a>
 
-    <div class="section footer-top">
-      <div class="container">
+            <p class="footer-text">
+              Our success in creating business solutions is due in large part to our talented and highly committed team.
+            </p>
 
-        <div class="footer-brand">
+            <ul class="social-list">
+              <li>
+                <a href="https://github.com/qwerty9927" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
 
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="150" height="73" loading="lazy" alt="Unigine logo">
-          </a>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
 
-          <p class="footer-text">
-            Our success in creating business solutions is due in large part to our talented and highly committed team.
-          </p>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
 
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-list">
-
-          <p class="title footer-list-title has-after">Usefull Links</p>
-
-          <ul>
-
-            <li>
-              <a href="#" class="footer-link">Tournaments</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Help Center</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Privacy and Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms of Use</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Contact Us</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-list">
-
-          <p class="title footer-list-title has-after">Contact Us</p>
-
-          <div class="contact-item">
-            <span class="span">Location:</span>
-
-            <address class="contact-link">
-              153 Williamson Plaza, Maggieberg, MT 09514
-            </address>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
           </div>
 
-          <div class="contact-item">
-            <span class="span">Join Us:</span>
+          <div class="footer-list">
+            <p class="title footer-list-title has-after">Usefull Links</p>
 
-            <a href="mailto:Info@unigine.com" class="contact-link">Info@unigine.com</a>
+            <ul>
+              <li>
+                <a href="#" class="footer-link">Tournaments</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Help Center</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Privacy and Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Terms of Use</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+            </ul>
           </div>
 
-          <div class="contact-item">
-            <span class="span">Phone:</span>
+          <div class="footer-list">
+            <p class="title footer-list-title has-after">Contact Us</p>
 
-            <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a>
+            <div class="contact-item">
+              <span class="span">Location:</span>
+
+              <address class="contact-link">TP. Hồ Chí Minh</address>
+            </div>
+
+            <div class="contact-item">
+              <span class="span">Join Us:</span>
+
+              <a href="mailto:Tanvo9927@gmail.com" class="contact-link">Tanvo9927@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+              <span class="span">Phone:</span>
+
+              <a href="tel:+12345678910" class="contact-link">+84 123456789</a>
+            </div>
           </div>
 
+          <div class="footer-list">
+            <p class="title footer-list-title has-after">Newsletter Signup</p>
+
+            <form action="./index.html" method="get" class="footer-form">
+              <input
+                type="email"
+                name="email_address"
+                required
+                placeholder="Your Email"
+                autocomplete="off"
+                class="input-field"
+              />
+
+              <button type="submit" class="btn" data-btn>Subscribe Now</button>
+            </form>
+          </div>
         </div>
-
-        <div class="footer-list">
-
-          <p class="title footer-list-title has-after">Newsletter Signup</p>
-
-          <form action="./index.html" method="get" class="footer-form">
-            <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
-              class="input-field">
-
-            <button type="submit" class="btn" data-btn>Subscribe Now</button>
-          </form>
-
-        </div>
-
       </div>
-    </div>
 
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 codewithsadee All Rights Reserved.
-        </p>
-
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2024 qwerty9927 All Rights Reserved.</p>
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
-  </a>
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
 
-
-
-
-
-  <!-- 
+    <!-- 
     - #CUSTOM CURSOR
   -->
 
-  <div class="cursor" data-cursor></div>
+    <div class="cursor" data-cursor></div>
 
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!-- 
+    <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
